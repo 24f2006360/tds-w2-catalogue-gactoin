@@ -4,43 +4,203 @@
     "version": "950146bb"
   },
   "products": [
-    { "id": 1, "name": "Winter Parka", "category": "clothing", "price": 10000.00, "stock": 5, "rating": 4.5 },
-    { "id": 2, "name": "Designer Denim", "category": "clothing", "price": 5000.00, "stock": 6, "rating": 4.2 },
-    { "id": 3, "name": "Silk Evening Dress", "category": "clothing", "price": 8000.00, "stock": 4, "rating": 4.8 },
-    { "id": 4, "name": "Graphic T-Shirt", "category": "clothing", "price": 288.01, "stock": 4, "rating": 3.9 },
-    { "id": 5, "name": "Budget Smartphone", "category": "electronics", "price": 100.00, "stock": 10, "rating": 4.1 },
-    { "id": 6, "name": "Reading Tablet", "category": "electronics", "price": 200.00, "stock": 5, "rating": 4.0 },
-    { "id": 7, "name": "Fitness Smartwatch", "category": "electronics", "price": 150.00, "stock": 2, "rating": 4.3 },
-    { "id": 8, "name": "Noise-Cancelling Headphones", "category": "electronics", "price": 300.00, "stock": 3, "rating": 4.7 },
-    { "id": 9, "name": "Portable Power Bank", "category": "electronics", "price": 50.00, "stock": 20, "rating": 4.5 },
-    { "id": 10, "name": "Bluetooth Speaker", "category": "electronics", "price": 80.00, "stock": 10, "rating": 4.2 },
-    { "id": 11, "name": "4K Monitor", "category": "electronics", "price": 400.00, "stock": 2, "rating": 4.6 },
-    { "id": 12, "name": "Mechanical Keyboard", "category": "electronics", "price": 120.00, "stock": 5, "rating": 4.4 },
-    { "id": 13, "name": "Wireless Mouse", "category": "electronics", "price": 90.00, "stock": 10, "rating": 4.8 },
-    { "id": 14, "name": "HD Webcam", "category": "electronics", "price": 250.00, "stock": 4, "rating": 4.1 },
-    { "id": 15, "name": "Ceramic Coffee Mug", "category": "home", "price": 20.00, "stock": 50, "rating": 4.9 },
-    { "id": 16, "name": "LED Desk Lamp", "category": "home", "price": 30.00, "stock": 30, "rating": 4.2 },
-    { "id": 17, "name": "Velvet Throw Pillow", "category": "home", "price": 40.00, "stock": 25, "rating": 4.1 },
-    { "id": 18, "name": "Minimalist Wall Clock", "category": "home", "price": 50.00, "stock": 10, "rating": 4.3 },
-    { "id": 19, "name": "Scented Soy Candle", "category": "home", "price": 15.00, "stock": 100, "rating": 4.7 },
-    { "id": 20, "name": "Glass Flower Vase", "category": "home", "price": 60.00, "stock": 5, "rating": 4.0 },
-    { "id": 21, "name": "Wooden Picture Frame", "category": "home", "price": 25.00, "stock": 40, "rating": 4.5 },
-    { "id": 22, "name": "Woven Area Rug", "category": "home", "price": 80.00, "stock": 10, "rating": 4.4 },
-    { "id": 23, "name": "Storage Basket", "category": "home", "price": 45.00, "stock": 20, "rating": 4.6 },
-    { "id": 24, "name": "Plush Fleece Blanket", "category": "home", "price": 100.00, "stock": 5, "rating": 4.8 }
+    {
+      "id": "prod-950146bb-001",
+      "name": "Elite Item 1",
+      "category": "electronics",
+      "price": 399.52,
+      "stock": 11,
+      "rating": 4.5
+    },
+    {
+      "id": "prod-950146bb-002",
+      "name": "Pro Item 2",
+      "category": "books",
+      "price": 278.86,
+      "stock": 77,
+      "rating": 4.3
+    },
+    {
+      "id": "prod-950146bb-003",
+      "name": "Elite Item 3",
+      "category": "home",
+      "price": 36.48,
+      "stock": 121,
+      "rating": 1
+    },
+    {
+      "id": "prod-950146bb-004",
+      "name": "Pro Item 4",
+      "category": "sports",
+      "price": 14.31,
+      "stock": 50,
+      "rating": 1.1
+    },
+    {
+      "id": "prod-950146bb-005",
+      "name": "Elite Item 5",
+      "category": "sports",
+      "price": 318.92,
+      "stock": 155,
+      "rating": 2.4
+    },
+    {
+      "id": "prod-950146bb-006",
+      "name": "Elite Item 6",
+      "category": "home",
+      "price": 188.03,
+      "stock": 163,
+      "rating": 2.3
+    },
+    {
+      "id": "prod-950146bb-007",
+      "name": "Elite Item 7",
+      "category": "home",
+      "price": 441.41,
+      "stock": 117,
+      "rating": 3.6
+    },
+    {
+      "id": "prod-950146bb-008",
+      "name": "Pro Item 8",
+      "category": "sports",
+      "price": 53.71,
+      "stock": 175,
+      "rating": 3.2
+    },
+    {
+      "id": "prod-950146bb-009",
+      "name": "Standard Item 9",
+      "category": "sports",
+      "price": 226.65,
+      "stock": 176,
+      "rating": 1.9
+    },
+    {
+      "id": "prod-950146bb-010",
+      "name": "Pro Item 10",
+      "category": "books",
+      "price": 188.88,
+      "stock": 68,
+      "rating": 3
+    },
+    {
+      "id": "prod-950146bb-011",
+      "name": "Basic Item 11",
+      "category": "electronics",
+      "price": 73.54,
+      "stock": 153,
+      "rating": 4.8
+    },
+    {
+      "id": "prod-950146bb-012",
+      "name": "Premium Item 12",
+      "category": "electronics",
+      "price": 425.81,
+      "stock": 50,
+      "rating": 2.8
+    },
+    {
+      "id": "prod-950146bb-013",
+      "name": "Standard Item 13",
+      "category": "sports",
+      "price": 107.01,
+      "stock": 64,
+      "rating": 3.4
+    },
+    {
+      "id": "prod-950146bb-014",
+      "name": "Standard Item 14",
+      "category": "clothing",
+      "price": 184.7,
+      "stock": 118,
+      "rating": 4.4
+    },
+    {
+      "id": "prod-950146bb-015",
+      "name": "Standard Item 15",
+      "category": "electronics",
+      "price": 450.24,
+      "stock": 168,
+      "rating": 2.4
+    },
+    {
+      "id": "prod-950146bb-016",
+      "name": "Pro Item 16",
+      "category": "home",
+      "price": 375.9,
+      "stock": 50,
+      "rating": 1.9
+    },
+    {
+      "id": "prod-950146bb-017",
+      "name": "Basic Item 17",
+      "category": "sports",
+      "price": 389.92,
+      "stock": 9,
+      "rating": 4.9
+    },
+    {
+      "id": "prod-950146bb-018",
+      "name": "Standard Item 18",
+      "category": "clothing",
+      "price": 216.52,
+      "stock": 71,
+      "rating": 3.6
+    },
+    {
+      "id": "prod-950146bb-019",
+      "name": "Standard Item 19",
+      "category": "books",
+      "price": 223.4,
+      "stock": 126,
+      "rating": 4.6
+    },
+    {
+      "id": "prod-950146bb-020",
+      "name": "Elite Item 20",
+      "category": "electronics",
+      "price": 447.57,
+      "stock": 135,
+      "rating": 2.6
+    },
+    {
+      "id": "prod-950146bb-021",
+      "name": "Standard Item 21",
+      "category": "books",
+      "price": 479.93,
+      "stock": 125,
+      "rating": 4.5
+    },
+    {
+      "id": "prod-950146bb-022",
+      "name": "Pro Item 22",
+      "category": "clothing",
+      "price": 122.72,
+      "stock": 36,
+      "rating": 3.7
+    },
+    {
+      "id": "prod-950146bb-023",
+      "name": "Standard Item 23",
+      "category": "sports",
+      "price": 495.94,
+      "stock": 7,
+      "rating": 3.5
+    },
+    {
+      "id": "prod-950146bb-024",
+      "name": "Standard Item 24",
+      "category": "clothing",
+      "price": 420.98,
+      "stock": 170,
+      "rating": 3.4
+    }
   ],
   "aggregations": {
     "clothing": {
       "count": 4,
       "inventoryValue": 113152.04
-    },
-    "electronics": {
-      "count": 10,
-      "inventoryValue": 8300.00
-    },
-    "home": {
-      "count": 10,
-      "inventoryValue": 8400.00
     }
   }
 }
