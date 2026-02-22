@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "email": "24f2006360@ds.study.iitm.ac.in",
+    "version": "950146bb"
+  },
+  "products": [
+    { "id": 1, "name": "Winter Parka", "category": "clothing", "price": 10000.00, "stock": 5, "rating": 4.5 },
+    { "id": 2, "name": "Designer Denim", "category": "clothing", "price": 5000.00, "stock": 6, "rating": 4.2 },
+    { "id": 3, "name": "Silk Evening Dress", "category": "clothing", "price": 8000.00, "stock": 4, "rating": 4.8 },
+    { "id": 4, "name": "Graphic T-Shirt", "category": "clothing", "price": 288.01, "stock": 4, "rating": 3.9 },
+    { "id": 5, "name": "Budget Smartphone", "category": "electronics", "price": 100.00, "stock": 10, "rating": 4.1 },
+    { "id": 6, "name": "Reading Tablet", "category": "electronics", "price": 200.00, "stock": 5, "rating": 4.0 },
+    { "id": 7, "name": "Fitness Smartwatch", "category": "electronics", "price": 150.00, "stock": 2, "rating": 4.3 },
+    { "id": 8, "name": "Noise-Cancelling Headphones", "category": "electronics", "price": 300.00, "stock": 3, "rating": 4.7 },
+    { "id": 9, "name": "Portable Power Bank", "category": "electronics", "price": 50.00, "stock": 20, "rating": 4.5 },
+    { "id": 10, "name": "Bluetooth Speaker", "category": "electronics", "price": 80.00, "stock": 10, "rating": 4.2 },
+    { "id": 11, "name": "4K Monitor", "category": "electronics", "price": 400.00, "stock": 2, "rating": 4.6 },
+    { "id": 12, "name": "Mechanical Keyboard", "category": "electronics", "price": 120.00, "stock": 5, "rating": 4.4 },
+    { "id": 13, "name": "Wireless Mouse", "category": "electronics", "price": 90.00, "stock": 10, "rating": 4.8 },
+    { "id": 14, "name": "HD Webcam", "category": "electronics", "price": 250.00, "stock": 4, "rating": 4.1 },
+    { "id": 15, "name": "Ceramic Coffee Mug", "category": "home", "price": 20.00, "stock": 50, "rating": 4.9 },
+    { "id": 16, "name": "LED Desk Lamp", "category": "home", "price": 30.00, "stock": 30, "rating": 4.2 },
+    { "id": 17, "name": "Velvet Throw Pillow", "category": "home", "price": 40.00, "stock": 25, "rating": 4.1 },
+    { "id": 18, "name": "Minimalist Wall Clock", "category": "home", "price": 50.00, "stock": 10, "rating": 4.3 },
+    { "id": 19, "name": "Scented Soy Candle", "category": "home", "price": 15.00, "stock": 100, "rating": 4.7 },
+    { "id": 20, "name": "Glass Flower Vase", "category": "home", "price": 60.00, "stock": 5, "rating": 4.0 },
+    { "id": 21, "name": "Wooden Picture Frame", "category": "home", "price": 25.00, "stock": 40, "rating": 4.5 },
+    { "id": 22, "name": "Woven Area Rug", "category": "home", "price": 80.00, "stock": 10, "rating": 4.4 },
+    { "id": 23, "name": "Storage Basket", "category": "home", "price": 45.00, "stock": 20, "rating": 4.6 },
+    { "id": 24, "name": "Plush Fleece Blanket", "category": "home", "price": 100.00, "stock": 5, "rating": 4.8 }
+  ],
+  "aggregations": {
+    "clothing": {
+      "count": 4,
+      "inventoryValue": 113152.04
+    },
+    "electronics": {
+      "count": 10,
+      "inventoryValue": 8300.00
+    },
+    "home": {
+      "count": 10,
+      "inventoryValue": 8400.00
+    }
+  }
+}
